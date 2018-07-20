@@ -1,0 +1,37 @@
+{
+  "name": "bt01.webservice",
+  "version": "1.0.0",
+  "description": "this is my first  API server",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1412183/BT01.WebService.git"
+  },
+  "keywords": [
+    "expressjs",
+    "bodyParser",
+    "mongojs",
+    "angularjs"
+  ],
+  "author": "KING",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1412183/BT01.WebService/issues"
+  },
+  "homepage": "https://github.com/1412183/BT01.WebService#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-validation": "^1.0.2",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.4.2"
+  }
+}
